@@ -76,7 +76,7 @@ export default function ProductScreen(props) {
     enqueueSnackbar(`${product.name} added to the cart`, {
       variant: "success",
     });
-    router.push("/Cart");
+    router.push("/cart");
   };
 
   return (

@@ -59,7 +59,7 @@ export default function Home() {
     enqueueSnackbar(`${product.name} added to the cart`, {
       variant: "success",
     });
-    router.push("/Cart");
+    router.push("/cart");
   };
   return (
     <Layout>
